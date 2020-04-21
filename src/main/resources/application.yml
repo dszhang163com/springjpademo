@@ -1,0 +1,15 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: demo
+  datasource:
+    url: jdbc:mysql://192.168.8.223:3306/jpa?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
