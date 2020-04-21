@@ -13,5 +13,7 @@ public class CrosConfig implements WebMvcConfigurer {
                 .allowedMethods("GET", "HEAD", "POST", "PUT", "DELETE")
                 .allowCredentials(true).maxAge(3600)
                 .allowedHeaders("*");
+
+
     }
 }
